@@ -9,3 +9,11 @@ function getElementRemoveFont(elementId,className){
     getElement.classList.remove(className)
     
 }
+
+
+
+const textArea=document.getElementById("text-area")
+textArea.addEventListener("click",function(){
+    
+textArea.focus();
+})

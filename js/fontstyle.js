@@ -1,4 +1,7 @@
 let isClicked=false
+
+
+
 document.getElementById("bold-btn").addEventListener('click',function(){
       isClicked=!isClicked;
       if(isClicked){
