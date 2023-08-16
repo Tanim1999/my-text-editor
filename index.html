@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanim's editor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
+</head>
+
+<body class="bg-violet-700">
+    <header>
+        <nav class="bg-slate-400 flex justify-around">
+            <div>
+                <button id="bold-btn" class="mr-3 hover:bg-slate-500 p-3"><i class="fa-solid fa-bold"></i></button>
+                <button id="italic-btn" class="mr-3 hover:bg-slate-500 p-3"><i class="fa-solid fa-italic"></i></button>
+                <button id="underline-btn" class="mr-3 hover:bg-slate-500 p-3"><i class="fa-solid fa-underline"></i></button>
+
+            </div>
+            <div>
+                <button id="alignLeft" class="mr-3 hover:bg-slate-500 p-3"><i class="fa-solid fa-align-left"></i></button>
+                <button id="alignCenter" class="mr-3 hover:bg-slate-500 p-3"><i class="fa-solid fa-align-center"></i></button>
+                <button id="alignRight" class="mr-3 hover:bg-slate-500 p-3"><i class="fa-solid fa-align-right"></i></button>
+
+            </div>
+            <div>
+                <input class="bg-white w-10 mr-3" type="number">
+                <input class="bg-white w-9 rounded-md mt-2" type="color">
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="mx-auto bg-black w-3/4 h-screen ">
+            <textarea  class="w-full h-full font-bold " id="text-area" ></textarea>
+        </div>
+
+    </main>
+
+
+    <script src="./js/utility.js"></script>
+    <script src="./js/fontstyle.js"></script>
+    <script src="./js/alignment.js"></script>
+
+</body>
+
+</html>
